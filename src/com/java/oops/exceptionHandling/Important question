@@ -1,0 +1,24 @@
+1.What is Exceptional handling?
+Ans: It is an abnormal condition that abruptly terminates the flow of execution.
+
+2.What are the types in exceptions ?
+Ans: Checked Exception and Unchecked Exception.
+
+
+Important Java Exception Handling Questions:
+
+1. What is an Exception in Java? How does it differ from an Error?
+2. Explain the Java Exception Hierarchy.
+3. What is the difference between Checked and Unchecked Exceptions?
+4. What is the purpose of `try`, `catch`, `finally`, `throw`, and `throws` keywords?
+5. Can we have a `try` block without a `catch` block?
+6. Is it possible that the `finally` block will not be executed? Under what conditions?
+7. What is a multi-catch block? How do you implement it?
+8. What is `try-with-resources`? How does it simplify resource management?
+9. What is the difference between `ClassNotFoundException` and `NoClassDefFoundError`?
+10. How do you create custom (user-defined) exceptions in Java?
+11. What is Exception Chaining (or Exception Wrapping)?
+12. What are `StackOverflowError` and `OutOfMemoryError`?
+13. Can you catch an Error in Java? Is it recommended?
+14. What happens if an exception is thrown inside the `finally` block?
+15. What are the best practices for Exception Handling in Java?
