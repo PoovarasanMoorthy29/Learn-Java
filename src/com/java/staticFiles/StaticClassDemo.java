@@ -15,5 +15,6 @@ public class StaticClassDemo {
     public static void main(String[] args) {
         StaticClassDemo.Demo obj=new StaticClassDemo.Demo();
         System.out.println(Demo.getValue());
+
     }
 }
