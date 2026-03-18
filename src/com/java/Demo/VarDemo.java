@@ -10,5 +10,6 @@ public class VarDemo {
         // var b="hello"
         // System.out.println(b); // It doesn't run
 
+
     }
 }
