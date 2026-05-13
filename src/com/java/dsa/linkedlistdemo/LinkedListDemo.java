@@ -1,31 +1,39 @@
 package com.java.dsa.linkedlistdemo;
 
 public class LinkedListDemo {
+    Node head;
+    public LinkedListDemo(){
+        this.head=null;
+
+    }
     class Node{
-        int data;
+        int value;
         Node next;
-        Node(int val){
-            this.data=val;
+        public Node(int value){
+            this.value=value;
             this.next=null;
         }
     }
-    Node head;
-    public void insertAtBeginning(int element){
-        Node newNode=new Node(element);
+    public void insertAtBeginning(int data){
+        Node newNode=new Node(data);
+        newNode.next=head;
         head=newNode;
-        newNode.next=null;
 
     }
     public void display(){
         Node temp=head;
         while(temp!=null){
-            System.out.print(temp.data+" ");
-            temp=temp.next;
+            if(temp.next==null){
+                System.out.print(temp.value);
+                temp=temp.next;
+            }
+            else{
+                System.out.print(temp.value+" -> ");
+                temp=temp.next;
+            }
         }
-
-
-
     }
+
 
 
     public static void main(String[] args) {
