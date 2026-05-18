@@ -87,7 +87,6 @@ public class LinkedListDemo {
         obj.insertAtLast(10);
         obj.insertAtLast(20);
         obj.insertAtLast(30);
-
         System.out.println("Before Deletion:");
         obj.display();
         obj.deleteAtLast();
